@@ -3,41 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThanhDatShop - PHANTOM</title>
+<title>ThanhDatShop - Chuyen PHANTOM</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#0a0a12;color:#fff;padding:16px}
-.header{text-align:center;padding:20px 0}
-.header h1{font-size:32px;color:#a78bfa}
-.header h1 span{color:#fff}
-.header p{color:#aaa;margin-top:6px}
-.badge{display:inline-block;background:#7c3aed;padding:6px 14px;border-radius:20px;font-size:13px;margin-top:10px}
-.grid{display:grid;gap:14px;max-width:500px;margin:20px auto}
-.card{background:#15151f;border:1px solid #2a2a3a;border-radius:16px;padding:18px;display:flex;justify-content:space-between;align-items:center}
-.card.hot{border:2px solid #a78bfa;background:#1c152e}
-.card b{font-size:18px}
-.card small{color:#aaa}
-.price{font-size:22px;color:#22ff88;font-weight:bold}
-.btn{display:block;text-align:center;background:#7c3aed;color:#fff;padding:12px;border-radius:12px;text-decoration:none;font-weight:bold;margin-top:10px}
-.pay{max-width:500px;margin:20px auto;background:#15151f;border-radius:16px;padding:18px;text-align:center}
-.pay h3{margin-bottom:10px}
-.pay p{margin:6px 0;color:#ddd}
-.pay b{color:#22ff88;font-size:18px}
-.footer{text-align:center;color:#777;font-size:13px;margin:20px 0}
+body{font-family:Arial,sans-serif;background:#0f0f0f;color:#fff;text-align:center;margin:0;padding:20px}
+h1{color:#00ff88}.card{background:#1c1c1c;border-radius:15px;padding:20px;max-width:450px;margin:20px auto}
+.price{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #333}
+.price b{color:#00ff88}
+button{background:#00ff88;border:0;padding:15px 30px;font-size:18px;font-weight:bold;border-radius:10px;width:100%}
+#popup{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);overflow:auto;padding:20px}
+.box{background:#fff;color:#000;max-width:450px;margin:auto;border-radius:15px;padding:20px}
+.box img{width:100%;max-width:280px;border-radius:10px}
+.btn{display:block;padding:13px;margin:8px 0;border-radius:10px;text-decoration:none;font-weight:bold;color:#fff}
+.zalo{background:#0068ff}.tele{background:#0088cc}.close{background:#333}
 </style>
 </head>
 <body>
-<div class="header">
-<h1>ThanhDat<span>Shop</span></h1>
+<h1>ThanhDatShop</h1>
 <p>Chuyen PHANTOM - Uy Tin - Nhanh Gon</p>
-<div class="badge">Giao ngay trong 5 phut</div>
+<div class="card">
+<h2>BANG GIA PHANTOM</h2>
+<div class="price"><span>1h</span><b>9k</b></div>
+<div class="price"><span>3h</span><b>13k</b></div>
+<div class="price"><span>6h</span><b>16k</b></div>
+<div class="price"><span>24h</span><b>25k</b></div>
+<div class="price"><span>3 ngay</span><b>50k</b></div>
+<div class="price"><span>7 ngay</span><b>100k</b></div>
+<div class="price"><span>1 thang</span><b>200k</b></div>
+<br>
+<button onclick="document.getElementById('popup').style.display='block'">MUA NGAY</button>
 </div>
-<div class="grid">
-<div class="card"><div><b>PHANTOM 1 Gio</b><br><small>Dung thu</small></div><div><div class="price">9K</div><a class="btn" href="https://t.me/giangsonglambot?text=Minh%20muon%20mua%20PHANTOM%201h%20-%209k">MUA NGAY</a></div></div>
-<div class="card"><div><b>PHANTOM 3 Gio</b><br><small>Choi chill</small></div><div><div class="price">13K</div><a class="btn" href="https://t.me/giangsonglambot?text=Minh%20muon%20mua%20PHANTOM%203h%20-%2013k">MUA NGAY</a></div></div>
-<div class="card"><div><b>PHANTOM 6 Gio</b><br><small>Choi ca buoi</small></div><div><div class="price">16K</div><a class="btn" href="https://t.me/giangsonglambot?text=Minh%20muon%20mua%20PHANTOM%206h%20-%2016k">MUA NGAY</a></div></div>
-<div class="card hot"><div><b>PHANTOM 24 Gio</b><br><small>Ban chay nhat</small></div><div><div class="price">25K</div><a class="btn" href="https://t.me/giangsonglambot?text=Minh%20muon%20mua%20PHANTOM%2024h%20-%2025k">MUA NGAY</a></div></div>
-<div class="card"><div><b>PHANTOM 3 Ngay</b><br><small>Choi cuoi tuan</small></div><div><div class="price">50K</div><a class="btn" href="https://t.me/giangsonglambot?text=Minh%20muon%20mua%20PHANTOM%203%20ngay%20-%2050k">MUA NGAY</a></div></div>
-<div class="card"><div><b>PHANTOM 7 Ngay</b><br><small>Choi ca tuan</small></div><div><div class="price">100K</div><a class="btn" href="https://t.me/giangsonglambot?text=Minh%20muon%20mua%20PHANTOM%207%20ngay%20-%20100k">MUA NGAY</a></div></div>
-<div class="card"><div><b>PHANTOM 1 Thang</b><br><small>Tiet kiem nhat</small></div><div><div class="price">200K</div><a class="btn" href="https://t.me/giangsonglambot?text=Minh%20muon%20mua%20PHANTOM%201%20thang%20-%20200k">MUA NGAY</a></div></div>
-</div>
+<div id="popup"><div class="box">
+<h2>THANH TOAN</h2>
+<p><b>VietinBank - GIANG SONG LAM</b><br>Chuyen khoan roi chup bill gui Zalo/Telegram</p>
+<img src="qr.jpg">
+<p><b>Buoc 1:</b> Chon goi + Quet QR<br><b>Buoc 2:</b> Nhan Zalo/Telegram gui bill</p>
+<a class="btn zalo" href="https://zalo.me/0886617387">Zalo: 0886617387</a>
+<a class="btn tele" href="https://t.me/lamdz08">Telegram: @lamdz08</a>
+<a class="btn close" href="#" onclick="document.getElementById('popup').style.display='none'">Dong</a>
+</div></div>
+</body>
+</html>
